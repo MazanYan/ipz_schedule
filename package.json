@@ -1,13 +1,13 @@
 {
   "name": "ipz",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ipz-project",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "",
+  "author": "IV-71",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
