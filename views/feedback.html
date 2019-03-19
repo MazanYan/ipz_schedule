@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>page</title>
+	<link rel="stylesheet" type="text/css" href="/css/feedback.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+</head>
+
+<body>
+	<div class="signUp">
+		<h1 class="signUpTitle">Відправте нам повідомлення про помилку</h1>
+		<form action="/feedback" method="POST">
+			<h2>E-mail</h2>
+			<input type="email" id="email" class="signUpInput" name="email"
+				placeholder="Введіть e-mail на який вам відповідати" autofocus required>
+			<h2>Bug report</h2>
+			<input type="text" id="message" class="text" name="message" placeholder="Розкажіть про помилку" required>
+			<button type="submit" class="signUpButton">Відіслати!</button>
+		</form>
+	</div>
+</body>
+
+</html>

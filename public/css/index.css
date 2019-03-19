@@ -1,0 +1,258 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(169, 169, 169);
+    background-size: cover;
+}
+
+/*==================================================================*/
+
+.all{
+	background-color:  #2f3640 ;
+	position: absolute;
+    width:200px;
+	text-align:center;
+	height: 100%;
+    margin: 0 0px;
+    display: grid;
+	border-right: 3px solid grey;
+}
+.page-left{
+	
+    padding: 20px;
+    width: 100%;
+}
+.logo{
+	position:relative;
+    width:100px;
+    height: 101px;
+    margin:auto;
+    background: url(http://rozklad.kpi.ua/Img/logo.gif);
+    background-size: cover;
+}
+.page-name{
+	position:relative;
+	color: #8e8787;
+    font-size: 30px;
+	margin-right: auto;
+	margin-left: auto;
+    font-family: 'Prata',sans-serif;
+    width: 30px;
+    text-align: center;
+    margin-left:  2%;
+}
+.page-info{
+	color: #8e8787;
+    width: 160px;
+	margin-left: 10px;
+	font-family: 'Prata',sans-serif;
+	margin-left:  2%;
+    font-size: 20px;
+    text-align: left;
+	
+}
+
+.menu{
+    width: 100%;
+	margin-left:  -20%;
+
+}
+
+.rg{
+	position: relative;
+	transition:.5s;
+	margin-top:15px;
+	height:70px;
+	width: 100%;
+	padding-top: 20px;
+	border: 1px solid transparent;
+ 	left: 12px;
+	transition:.5s
+}
+
+.rg a{
+  color:#8e8787;
+  text-align: center;
+  text-decoration:none;
+  font-size:19px;
+  font-family: 'Prata';
+  text-transform:uppercase;
+  position: relative;
+  display: block;
+  transition:.5s
+}
+
+.rg:hover{
+	background:#211f1f;
+	border-color: rgb(0,0,0);
+}
+.rg a:hover{
+	color:#fff;
+	transform: scale(1.1);
+}
+
+.rv{
+	position: relative;
+	transition:.5s;
+	height:70px;
+	width: 100%;
+	padding-top: 20px;
+	border: 1px solid transparent;
+ 	left: 12px;
+	transition:.5s
+}
+
+.rv a{
+  color:#8e8787;
+  text-align: center;
+  text-decoration:none;
+  font-size:19px;
+  font-family: 'Prata';
+  text-transform:uppercase;
+  position: relative;
+  display: block;
+  transition:.5s
+}
+
+.rv:hover{
+	background:#211f1f;
+	border-color: rgb(0,0,0);
+}
+.rv a:hover{
+	color:#fff;
+}
+
+.rs{
+	position: relative;
+	transition:.5s;
+	height:70px;
+	width: 100%;
+	padding-top: 20px;
+	border: 1px solid transparent;
+ 	left: 12px;
+	transition:.5s
+}
+
+.rs a{
+  color:#8e8787;
+  text-align: center;
+  text-decoration:none;
+  font-size:19px;
+  font-family: 'Prata';
+  text-transform:uppercase;
+  position: relative;
+  display: block;
+  transition:.5s
+}
+
+.rs:hover{
+	background:#211f1f;
+	border-color: rgb(0,0,0);
+}
+.rs a:hover{
+	color:#fff;
+}
+
+.fb{
+	position: relative;
+	transition:.5s;
+	height:70px;
+	width: 100%;
+	padding-top: 20px;
+	border: 1px solid transparent;
+ 	left: 12px;
+	transition:.5s
+}
+
+.fb a{
+  color:#8e8787;
+  text-align: center;
+  text-decoration:none;
+  font-size:19px;
+  font-family: 'Prata';
+  text-transform:uppercase;
+  position: relative;
+  display: block;
+  transition:.5s
+}
+
+.fb:hover{
+	background:#211f1f;
+	border-color: rgb(0,0,0);
+}
+.fb a:hover{
+	color:#fff;
+}
+
+
+
+.search-box{
+    position: absolute;
+    top: 3%;
+    left: 18%;
+    transition: (-50%,-50%);
+    background-color: #2f3640;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px; 
+}
+.search-box:hover > .search-btn{
+    background: #2f3640 
+}
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s
+}
+.search-txt{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}
+
+footer{
+	position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #262626;
+}
+.social a{
+	color:inherit;
+}
+.social{
+    color: #fff;
+    width:200px;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+.social .fab{
+	position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scale(1);
+    transition: .5s;
+}
+.social a .fab:hover{
+    transform: scale(1.5);
+}
