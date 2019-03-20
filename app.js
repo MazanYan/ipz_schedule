@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const expressValidator = require('express-validator');
-const expressSession = require('express-session');
 
 const db = require('./config/keys').MongoURI;
 /* Connect to mongo */
@@ -16,8 +14,6 @@ mongoose.connect(db, { useNewUrlParser: true })
 
 /* bodyparser */
 app.use(express.urlencoded({ extended: false }));
-app.use(expressValidator());
-app.use(expressSession({ secret: 'false', saveUninitialized: false, resave: false }));
 
 /* router */
 app.use('/', require('./routes/index'));
