@@ -17,6 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 
 /* router */
 app.use('/', require('./routes/index'));
+app.use('/schedules', require('./routes/schedules'));
 
 /* static files */
 app.use(express.static(__dirname + '/public'));

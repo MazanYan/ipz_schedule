@@ -40,7 +40,15 @@ body{
     width: 30px;
     text-align: center;
     margin-left:  2%;
+	cursor: default;
 }
+
+.page-name::selection{
+	background: #2f3640;
+}
+
+
+
 .page-info{
 	color: #8e8787;
     width: 160px;
@@ -49,7 +57,11 @@ body{
 	margin-left:  2%;
     font-size: 20px;
     text-align: left;
+	cursor: default;
 	
+}
+.page-info::selection{
+	background: #2f3640;
 }
 
 .menu{
@@ -82,13 +94,14 @@ body{
   transition:.5s
 }
 
+
+
 .rg:hover{
 	background:#211f1f;
 	border-color: rgb(0,0,0);
 }
 .rg a:hover{
 	color:#fff;
-	transform: scale(1.1);
 }
 
 .rv{
@@ -191,41 +204,29 @@ body{
     top: 3%;
     left: 18%;
     transition: (-50%,-50%);
-    background-color: #2f3640;
+    
     height: 30px;
     border-radius: 30px;
     padding: 10px
 }
-.search-box:hover > .search-txt{
-    width: 240px;
-    padding: 0 6px; 
+input[type=text] {
+  width: 90px;
+  color: #8e8787;
+  box-sizing: border-box;
+  border: 2px solid #2f3640;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #2f3640;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
-.search-box:hover > .search-btn{
-    background: #2f3640 
-}
-.search-btn{
-    color: #e84118;
-    float: right;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #2f3640;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s
-}
-.search-txt{
-    border:none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 30px;
-    width: 0px;
+
+input[type=text]:focus {
+  width: 150%;
 }
 
 footer{
